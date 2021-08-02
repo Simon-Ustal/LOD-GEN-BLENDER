@@ -1,7 +1,7 @@
 # LOD GEN BLENDER
 **An easy plugin tool to create game ready LODs in a few seconds!**
 
-* Installtion
+* Installation
 * Setup
 
 ## Installation
@@ -42,14 +42,18 @@ At first you will need to remove or join (CTRL+J) objects in your scene as one.
 
 5. Choose a file path from your PC where you want files to be saved...
 
-![image](https://user-images.githubusercontent.com/67018424/127848480-f9ea204b-4470-4619-9084-137314a582fd.png)
-![image](https://user-images.githubusercontent.com/67018424/127848638-04cd86ea-7ed7-4a86-a046-0c18982c280e.png)
+![image](https://user-images.githubusercontent.com/67018424/127849116-906642f8-c329-468a-959b-ccda314e1957.png)
+
+![image](https://user-images.githubusercontent.com/67018424/127849056-0b6086f2-4256-4c58-b7d5-e82ad98b91ea.png)
+
 ![image](https://user-images.githubusercontent.com/67018424/127848663-9b263c4a-b0a9-4a60-ac80-c23d723c2df5.png)
 
 6. And just click to generate and save your LODs...
 
 
 ![image](https://user-images.githubusercontent.com/67018424/127848782-52891e71-debd-47c7-9dad-75902d54b1db.png)
+
+
 ![image](https://user-images.githubusercontent.com/67018424/127848881-d279a3b3-e7de-411f-b1dc-0bd46da737c7.png)
 ![image](https://user-images.githubusercontent.com/67018424/127848906-0d54f0c6-5396-4876-b1b9-57e714e7b698.png)
 ![image](https://user-images.githubusercontent.com/67018424/127848931-326ea14d-a0e0-4530-9951-0131a9c8991f.png)
