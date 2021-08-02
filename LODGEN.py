@@ -39,36 +39,12 @@ class MyProperties(bpy.types.PropertyGroup):
     )
     
 
-# Init LODGENPanel 
-class LODGENPanel(bpy.types.Panel):
-    bl_label = "LOD Gen"
-    bl_idname = "PT_TestPanel"
-    bl_space_type = 'VIEW_3D'
-    bl_region_type = 'UI'
-    bl_category = 'LOD Gen'
- 
-    
-    
-    
-    def draw(self, context):
-        layout = self.layout
-        
-        obj = context.object
-        
-        row = layout.row()
-        
-        row.label(text = "Select object...", icon = 'OBJECT_DATAMODE')
-        
-        row = layout.row()
-        
-        row.prop(obj, "name")
-        
-    
+
    
 # Init ObjectCountPanel    
 class ObjectCount(bpy.types.Panel):
-    bl_label = "Export Settings"
-    bl_idname = "PT_PanelA"
+    bl_label = "Settings to Export"
+    bl_idname = "PT_TestPanel2"
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
     bl_category = 'LOD Gen'
@@ -93,6 +69,32 @@ class ObjectCount(bpy.types.Panel):
         
         row = layout.row()
         row.operator("object.property_example")
+        
+# Init LODGENPanel 
+class LODGENPanel(bpy.types.Panel):
+    bl_label = "LOD Gen"
+    bl_idname = "PT_TestPanel"
+    bl_space_type = 'VIEW_3D'
+    bl_region_type = 'UI'
+    bl_category = 'LOD Gen'
+ 
+    
+    
+    
+    def draw(self, context):
+        layout = self.layout
+        
+        obj = context.object
+        
+        row = layout.row()
+        
+        row.label(text = "Select object...", icon = 'OBJECT_DATAMODE')
+        
+        row = layout.row()
+        
+        row.prop(obj, "name")
+        
+            
         
 # Export LODs        
 class OBJECT_OT_property_example(bpy.types.Operator):
